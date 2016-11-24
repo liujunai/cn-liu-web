@@ -11,6 +11,18 @@
     <!--父工程作为管理者，使用pom-->
     <packaging>pom</packaging>
 
+    <!--聚合模块，统一构建项目-->
+    <modules>
+        <module>../cn-web-inft</module>
+        <module>../cn-web-service</module>
+        <module>../cn-web</module>
+        <module>../cn-admin-inft</module>
+        <module>../cn-admin-service</module>
+        <module>../cn-admin</module>
+        <module>../cn-service</module>
+        <module>../cn-utils</module>
+    </modules>
+
     <!--属性定义,集中管理版本号-->
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
@@ -52,9 +64,10 @@
     </properties>
 
 
-    <!--dependencyManagement:提供依赖包的管理，在子工程中如果想使用其中的包，需要主动引入,只需要指定groupId,artifactId
-                             带来的好处是依赖包的版本号可以集中管理,子工程不在需要关系版本.
-        项目所有需要依赖的包
+    <!--
+    dependencyManagement:提供依赖包的管理，在子工程中如果想使用其中的包，需要主动引入,
+    只需要指定groupId,artifactId带来的好处是依赖包的版本号可以集中管理,子工程不在需要关系版
+    本.项目所有需要依赖的包
     -->
     <dependencyManagement>
         <dependencies>
@@ -407,27 +420,5 @@
 
         </dependencies>
     </dependencyManagement>
-
-
-    <!--聚合模块，统一构建项目-->
-    <modules>
-        <module>../cn-web-inft</module>
-        <module>../cn-web-service</module>
-        <module>../cn-web</module>
-        <module>../cn-admin-inft</module>
-        <module>../cn-admin-service</module>
-        <module>../cn-admin</module>
-        <module>../cn-service</module>
-        <module>../cn-utils</module>
-    </modules>
-
-
-
-
-
-
-
-
-
 
 </project>
