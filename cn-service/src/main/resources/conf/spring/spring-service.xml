@@ -19,8 +19,8 @@
 
 
     <!-- 如果要引用其他项目的spring配置,必须要在其他maven项目中依赖其他项目
-    pom父模块中已经全部依赖service模块继承pom父模块依赖传递 -->
-    <import resource="classpath*:conf/spring/spring-cache.xml" />
+    pom父模块中已经全部依赖全部模块cn-service模块继承pom父模块maven的依赖传递 -->
+    <!--<import resource="classpath*:conf/spring/" />-->
 
 
 </beans>
