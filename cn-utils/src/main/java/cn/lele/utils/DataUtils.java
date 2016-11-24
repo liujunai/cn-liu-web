@@ -10,6 +10,7 @@ import java.util.Locale;
  */
 //日期工具类
 public class DataUtils {
+
     public static String cstTime2String(String dateStr)
     {
         SimpleDateFormat sdf = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", Locale.US);
