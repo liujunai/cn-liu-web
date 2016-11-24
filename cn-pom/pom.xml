@@ -110,6 +110,18 @@
             </dependency>
 
             <dependency>
+                <groupId>cn-liu</groupId>
+                <artifactId>cn-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn-liu</groupId>
+                <artifactId>cn-utils</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-core</artifactId>
                 <version>${camel.version}</version>
