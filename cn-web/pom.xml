@@ -20,13 +20,9 @@
 
         <dependency>
             <groupId>cn-liu</groupId>
-            <artifactId>cn-web-inft</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>cn-liu</groupId>
             <artifactId>cn-web-service</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>org.apache.velocity</groupId>
