@@ -54,7 +54,7 @@
     <tx:annotation-driven transaction-manager="transactionManager" />
 
     <!-- 引入spring-admin-service模块中相关配置 -->
-    <import resource="classpath*:spring/spring-admin-service.xml" />
+    <import resource="classpath*:conf/spring/spring-admin-service.xml" />
 
     <!-- 引入资源文件 -->
     <context:property-placeholder location="classpath*:conf/db/*.properties" />
