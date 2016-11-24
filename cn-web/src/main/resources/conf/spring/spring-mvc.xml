@@ -84,7 +84,7 @@
     </bean>
     <!--velocity 模版配置*********************************************************************** -->
 
-    <import resource="classpath*:conf/spring/spring-web-service.xml"/>
+    <import resource="classpath*:src/main/spring-web-service.xml"/>
 
     <context:property-placeholder location="classpath*:conf/db/*.properties"/>
 
