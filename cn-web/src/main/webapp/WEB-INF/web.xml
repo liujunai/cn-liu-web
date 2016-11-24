@@ -87,7 +87,7 @@
     <!--错误页面配置 -->
     <error-page>
         <error-code>404</error-code>
-        <location>/errors/erroer.html</location>
+        <location>/errors/errors.html</location>
     </error-page>
 
 </web-app>
